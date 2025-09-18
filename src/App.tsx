@@ -11,6 +11,7 @@ import { Footer } from './components/Footer';
 import { WhatsAppFloat } from './components/WhatsAppFloat';
 import { ChatBot } from './components/ChatBot';
 import { PackageDetailModal } from './components/PackageDetailModal';
+import { BrochureSlider } from './components/BrochureSlider';
 import { packages } from './data/packages';
 import { TourPackage } from './types';
 
@@ -183,6 +184,7 @@ Terima kasih! 🙏`;
 
       <TestimonialSection />
       <AboutSection />
+      <BrochureSlider />
       <PartnersSection />
       <ContactSection />
       <Footer />
