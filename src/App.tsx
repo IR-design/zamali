@@ -138,6 +138,11 @@ Terima kasih! 🙏`;
             </p>
           </div>
 
+          {/* Brochure Slider */}
+          <div className="mb-16">
+            <BrochureSlider />
+          </div>
+
           {/* Packages Grid */}
           {filteredPackages.length === 0 ? (
             <div className="text-center py-16">
@@ -184,7 +189,6 @@ Terima kasih! 🙏`;
 
       <TestimonialSection />
       <AboutSection />
-      <BrochureSlider />
       <PartnersSection />
       <ContactSection />
       <Footer />
