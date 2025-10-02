@@ -264,11 +264,11 @@ export const PrivateCustomPage: React.FC<PrivateCustomPageProps> = ({ onBack }) 
                         className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
                       >
                         <option value="">Pilih budget range</option>
-                        <option value="< 1jt">< Rp 1.000.000</option>
+                        <option value="< 1jt">&lt; Rp 1.000.000</option>
                         <option value="1-3jt">Rp 1.000.000 - 3.000.000</option>
                         <option value="3-5jt">Rp 3.000.000 - 5.000.000</option>
                         <option value="5-10jt">Rp 5.000.000 - 10.000.000</option>
-                        <option value="> 10jt">> Rp 10.000.000</option>
+                        <option value="> 10jt">&gt; Rp 10.000.000</option>
                         <option value="flexible">Flexible</option>
                       </select>
                     </div>
