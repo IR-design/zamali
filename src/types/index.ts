@@ -2,6 +2,7 @@ export interface TourPackage {
   id: string;
   name: string;
   category: string;
+  region: string;
   duration: string;
   price: number;
   originalPrice?: number;
@@ -88,4 +89,14 @@ export interface QuickReply {
   id: string;
   text: string;
   response: string;
+}
+
+export interface Region {
+  id: string;
+  name: string;
+  description: string;
+  heroImage: string;
+  icon: string;
+  highlights: string[];
+  packageCount: number;
 }
